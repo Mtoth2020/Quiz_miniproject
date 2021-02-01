@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            height: 150vh;
+            margin: 30px;
+            background-color: cornflowerblue;
+        }
+        form {
+            padding: 10px;
+            border: 1px solid gray;
+            width: 500px;
+            background-color: gray;
+        }
+        input[type="submit"] {
+            margin: 10px 0;
+        }
+        p {
+            border: 15px solid gray;
+            width: 490px;
+            height: 50px;
+            margin-bottom: 50px;
+            background-color: white;
+        }
+        div {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .subHeader {
+            font-weight: bold;
+            font-size: 25px;
+        }
+        fieldset {
+            background-color: white;
+        }
+        header {
+            color: white;
+            font-size: 60px;
+        }
+        h1 {
+            margin-bottom: 40px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>Programozó kvíz</header>
+
+<h1>Lássuk mennyire vagy képben!</h1>
+
+<h2 class="subHeader">Eredmény:</h2>
+<br>
+
+<p id="quizResult"></p><br>
+
+<form>
+    <fieldset>
+
+        <div>1. kérdés: A  programozó az egy … (fejezd be a mondatot)</div>
+        <div>
+            <input type="radio" name="q1" value="A">
+            <label>ember</label>
+        </div>
+        <div>
+            <input type="radio" name="q1" value="B">
+            <label>gép, ami a kávét kóddá változtatja</label>
+        </div>
+
+        <div>2.kérdés: Mire táncolnak a programozók?</div>
+        <div>
+            <input type="radio" name="q2" value="A">
+            <label>technóra</label>
+        </div>
+        <div>
+            <input type="radio" name="q2" value="B">
+            <label>algoritmusra</label>
+        </div>
+
+        <div>3.kérdés: Hogy kezdi a számolást programozó?</div>
+        <div>
+            <input type="radio" name="q3" value="A">
+            <label>Egy, két, há...</label>
+        </div>
+        <div>
+            <input type="radio" name="q3" value="B">
+            <label>0, egy, kettő, ...</label>
+        </div>
+
+        <div>4.kérdés:Mi a tömb utolsü eleme? [“hip”, “hip”, ??? ]</div>
+        <div>
+            <input type="radio" name="q4" value="A">
+            <label>"hurray"</label>
+        </div>
+        <div>
+            <input type="radio" name="q4" value="B">
+            <label>"array"</label>
+        </div>
+    </fieldset>
+    <input type="submit" value="Küldés">
+</form>
+
+<script src="js/jslesson_14.js"></script><br>
+</body>
+</html>
